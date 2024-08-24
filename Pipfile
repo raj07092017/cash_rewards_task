@@ -9,6 +9,7 @@ pandas = "*"
 scikit-learn = "*"
 pyarrow = "*"
 scikit-optimize = "*"
+openpyxl = "*"
 
 [dev-packages]
 ipykernel = "*"
