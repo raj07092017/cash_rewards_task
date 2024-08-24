@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+pyarrow = "*"
+scikit-optimize = "*"
+
+[dev-packages]
+ipykernel = "*"
+jupyter = "*"
+matplotlib = "*"
+seaborn = "*"
+shap = "*"
+dalex = "*"
+PDPbox = "*"
+scipy = "*"
+statsmodels = "*"
+
+[requires]
+python_version = "3.9"
